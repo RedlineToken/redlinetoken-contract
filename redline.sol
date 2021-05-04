@@ -724,7 +724,7 @@ contract Redline is Context, IERC20, Ownable {
     bool inSwapAndLiquify;
     bool public swapAndLiquifyEnabled = false;
     
-    uint256 public _maxTxAmount = 2000 * 10**4 * 10**9;
+    uint256 public _maxTxAmount = 2000 * 10**3 * 10**9;
     uint256 private numTokensSellToAddToLiquidity = 2300 * 10**3 * 10**9;
     
     event MinTokensBeforeSwapUpdated(uint256 minTokensBeforeSwap);
